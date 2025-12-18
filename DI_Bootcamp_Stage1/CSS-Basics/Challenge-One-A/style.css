@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(231, 166, 109);
+    font-family:monospace;
+}
+
+#wrap{
+    width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(240, 230, 202);
+    border: 3px dashed black;
+}
+
+h1{
+    border-bottom: 3px dashed black;
+    margin-top: 0;
+    font-style: italic;
+}
+
+p:first-of-type{
+    text-align: left;   
+    padding: 0 18px;
+}
+
+li::first-letter{
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+li{
+    list-style-type: none;
+    font-style: italic;
+}

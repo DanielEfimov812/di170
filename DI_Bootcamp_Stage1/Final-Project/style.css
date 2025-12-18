@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1vw;
+}
+
+ul{
+    padding: 0;
+}
+
+
+.navigation-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    width: 100%;
+    background-color: black;
+    margin-top: 0;
+    z-index: 3;
+}
+
+li{
+    list-style-type: none;
+}
+.home-img{
+    border-radius: 20px 20px 50px 50px;
+    width: 7vw;
+    height: auto;
+    margin-top: 10px;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: yellow;
+    font-size: 2vw;
+}
+
+.main-centence{
+    color: yellow;
+    position: absolute;
+    font-size: 4vw;
+    text-align: center;
+    padding: 15% 5% 0 5%;
+    z-index: 2;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    text-transform: uppercase;
+
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.main-img{
+    width: 100%;
+    height: 100%;
+}
+
+#biography{
+    scroll-margin-top: 10vw;
+    margin: 18px 25%;
+    text-align: center;
+}
+
+.discography-picture-bg{
+    background-image: url(./imges/pexels-introspectivedsgn-11115606.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 70vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discography-text{
+    color: yellow;
+    padding: 50px 20px;
+    font-size: 7vw;
+}
+
+.discography-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1vw;
+}
+
+.item-2, .item-1, .item-3, .item-4, .item-5, .item-6, .item-7{
+    padding: 10px;
+    margin: 10px;
+    flex-basis: 25%;
+    width: 30%;
+}
+
+.alboms-pictures{
+    width: 25vw;
+    border-radius: 50%;
+}
+
+.alboms-pictures:hover{
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+
+#members{
+    scroll-margin-top: 10vw;
+}
+
+.discography-list-about li{
+    margin-bottom: 0.4em;
+}
+
+.members-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.members-list li{
+    flex-basis: 30%;
+    text-align: center;
+    margin-top: 6vw;
+}
+
+.members-list li:hover{
+    transform: scale(1.1);
+}
+
+.members-list li img{
+    width: 30vw;
+    display: block;
+    transition: transform 10s ease-in;
+}
+
+.member-picture-bg{
+    background-image: url(./imges/20240927_Wutang_076_Large_a29fea5f-2085-46d3-a088-b66ad7b38c68.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discography-text{
+    color: yellow;
+    padding: 50px 20px;
+    font-size: 4vw;
+}
+
+#info{
+    background-color: yellow;
+}
+
+#info h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+}
+
+.content-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    margin-bottom: 25px;
+    margin: 0 25px 30px 25px;
+
+}
+
+
+

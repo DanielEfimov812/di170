@@ -1,0 +1,49 @@
+body{
+    width: 660px;
+    border: 3px solid black;
+}
+
+header{
+    border-bottom: 3px solid black;
+    padding-left: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+div{
+    width: 160px;
+    height: 350px;
+    border: 3px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.purple{
+    background-color: purple;
+    box-sizing: border-box;
+    width: 590px;
+    height: 100px;
+
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}

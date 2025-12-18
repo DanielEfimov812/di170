@@ -122,3 +122,10 @@ print(multipli)
 # Example: In "recursive", the two ‘r’s and two ‘e’s are allowed because they are not consecutive.
 
 
+user_input = input('tupe a word: ')
+user_result = user_input[0]
+for letter in user_input[1:]:
+    if letter != user_result[-1]:
+        user_result += letter
+
+print(user_result)

@@ -1,0 +1,41 @@
+/* 
+.class_number_1 { 
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#id_1{
+    color: blue;
+    font-size: 36px;
+}
+
+.cooler{
+    font-size: 24px;
+}
+
+#id_2{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+*/
+
+p:nth-child(odd){
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+div:first-of-type{
+    color: blue;
+    font-size: 36px;
+}
+
+p:nth-child(3){
+    font-size: 24px;
+}
+
+div:last-of-type{
+     background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
