@@ -1,0 +1,11 @@
+URL: https://github.com/DanielEfimov812/di170/blob/main/Di_Bootcamp_lessons/Week1/Day4/Exercises-xp/exercises.py
+suggestions for improvement:
+- In Exercise 3, basket.pop() removes the last element, not 'Blueberries' specifically. Use basket.remove('Blueberries') for accuracy.
+- In Exercise 7, the logic iterates only once because of the 'break' statement inside the loop.  The input of favorite fruits should be separated by spaces and then split into a list.  Also, only the last input is evaluated.
+- In Exercise 9 (Bonus), you are appending the age regardless of it being allowed or not.  Also, after printing "not allowed", the code prematurely prints the list; it should continue to gather ages and filter at the end.
+Brief justification:
+- correctness: The code addresses most of the exercises accurately and implements the required functionality as described in the chapter content. However, there are minor errors in Exercise 3 (using `pop()` instead of `remove()` for 'Blueberries'), Exercise 7 (incorrect loop logic and handling of fruit input), and Exercise 9 (bonus - appending all ages regardless of restriction and premature printing). Exercise 2 is implemented correctly, demonstrating understanding of tuple immutability. Exercise 4 is well-done, using a loop to generate the sequence of floats. Exercise 6 is correctly implemented with input validation. Overall it is highly aligned with the provided tasks, with some minor corrections needed. Therefore, the correctness is 92.22%
+- readability: The code is generally well-structured and uses meaningful variable names. Comments are used effectively to delineate the different exercises. There are some minor inconsistencies in formatting, but overall readability is good. Thus, I gave it a 90.
+- performance: The code's performance is efficient, using appropriate data structures and algorithms for the given tasks. List comprehensions or generator expressions could be used in some instances (e.g., Exercise 4) for potentially more concise code, but the current implementation is still performant. Thus, I gave it a 95.
+- security: The code doesn't involve any external data sources or complex security considerations. Input validation is performed in Exercise 6, which helps prevent basic errors. The lack of any significant vulnerabilities warrants a 95.
+
