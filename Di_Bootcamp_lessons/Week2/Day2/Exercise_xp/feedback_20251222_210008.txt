@@ -1,0 +1,10 @@
+URL: https://github.com/DanielEfimov812/di170/blob/main/Di_Bootcamp_lessons/Week2/Day2/Exercise_xp/exercise_xp.py
+suggestions for improvement:
+- Consider removing the comments that are just copies of the instructions. While comments are helpful, excessive comments that mirror the code's obvious actions can reduce readability.
+- In `describe_city`, setting `country = "Unknown"` as the default value would be more aligned with the prompt instead of `country = None`.
+Brief justification:
+- correctness: The code correctly implements all exercises as described in the chapter content. Each function performs the required tasks accurately, and the outputs match the expected outputs.
+- readability: The code is generally readable, with clear function definitions and straightforward logic. However, the excessive comments, which mostly reiterate the problem description, slightly reduce readability. Shorter, more concise comments would improve clarity.
+- performance: The code's performance is good. It uses basic operations and standard libraries, so there are no significant performance concerns. The random number generation and list manipulation are efficient for the given problem sizes.
+- security: The code does not involve any user input or external data sources, so there are no security concerns.
+
