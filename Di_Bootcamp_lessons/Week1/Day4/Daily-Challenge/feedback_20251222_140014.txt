@@ -1,0 +1,10 @@
+URL: https://github.com/DanielEfimov812/di170/blob/main/Di_Bootcamp_lessons/Week1/Day4/Daily-Challenge/Daily-Challenge.py
+suggestions for improvement:
+- Consider adding comments to explain complex logic or algorithms within the code.
+- Ensure consistent naming conventions throughout the code for better understanding.
+Brief justification:
+- correctness: The code accurately addresses both challenges presented in the chapter content. Challenge 1 correctly generates a list of multiples based on user input, and Challenge 2 effectively removes consecutive duplicate letters from a string, as demonstrated in the examples provided. The code directly implements the instructions and fulfills all requirements.
+- readability: The code is generally well-structured and easy to understand, with clear variable names and logical flow. However, the use of in-line comments explaining the challenge instructions could be removed to improve code clarity, as these are already provided in the problem description. Also, minor typos like 'tupe' should be corrected.
+- performance: The code's performance is efficient for the given tasks. The loops used have a direct relationship to the length of the input provided by the user, which has a linear time complexity O(n).
+- security: The code is reasonably secure. The use of `int(input())` in challenge 1 could lead to a `ValueError` if the user doesn't input an integer, but the code doesn't crash and handles it well enough to continue, therefore, not a major security flaw. There are no apparent vulnerabilities to injection attacks or other common security risks.
+

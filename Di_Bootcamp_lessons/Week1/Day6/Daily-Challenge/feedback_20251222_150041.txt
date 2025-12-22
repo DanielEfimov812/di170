@@ -1,0 +1,11 @@
+URL: https://github.com/DanielEfimov812/di170/blob/main/Di_Bootcamp_lessons/Week1/Day6/Daily-Challenge/daily-challenge.py
+suggestions for improvement:
+- The code is well-structured and addresses all requirements of the challenges.
+- Consider placing the code for each challenge in separate functions to improve organization and reusability.
+- Avoid repeating code blocks for the same examples in challenge 2, instead generalize the code using function and call it with diffrent parameters.
+Brief justification:
+- correctness: The code accurately implements the Letter Index Dictionary and Affordable Items challenges as described in the chapter content. Both challenges are solved correctly, with the expected inputs producing the expected outputs.
+- readability: The code is readable due to clear variable names and comments. However, encapsulating each challenge's code into functions would enhance readability and organization.
+- performance: The code's performance is efficient for the given problem sizes. Using `enumerate` in Challenge 1 is a good choice for accessing both index and character. Challenge 2 is straight forward approach, making it easy to read and underestand
+- security: The code doesn't involve any external input other than the user's word, and the `input()` function is used safely in challenge 1, it doesn't need to be sanitized. Challenge 2 the code only uses data from the provided parameters so it's very safe.
+
