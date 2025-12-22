@@ -1,30 +1,31 @@
-# Упражнение 1: Преобразование Списков В Словари
+#  Exercise 1: Converting Lists Into Dictionaries
 
-# Ключевые темы Python:
+# Key Python Topics:
 
-# Создание словарей
-# Функция Zip или понимание словаря
-
-
-# Инструкции
-
-# Вам дано два списка. Преобразуйте их в словарь, где первый список содержит ключи, а второй список содержит соответствующие значения.
+# Creating dictionaries
+# Zip function or dictionary comprehension
 
 
+# Instructions
 
-# Списки:
-
-# keys = ['Ten', 'Twenty', 'Thirty']
-# values = [10, 20, 30]
+# You are given two lists. Convert them into a dictionary where the first list contains the keys and the second list contains the corresponding values.
 
 
-# Ожидаемый результат:
 
-# {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+# Lists:
+
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
 
 
-# excepted_list = dict(zip(keys, values))
-# print(excepted_list)
+# Expected Output:
+
+{'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+
+
+
+excepted_list = dict(zip(keys, values))
+print(excepted_list)
 
 
 # Exercise 2: Cinemax #2
@@ -49,7 +50,7 @@
 
 # Family Data:
 
-# family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
+family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
 
 
 # Loop through the family dictionary to calculate the total cost.
@@ -59,22 +60,22 @@
 
 
 
-# price = 0
-# adult_price = 16
-# child_price = 10
-# baby_price = 0
-# for (name, age) in family.items():
-#     if age < 3:
-#         price += baby_price
-#         print(f"{name} {baby_price} dollars")
-#     elif 3 < age < 12:
-#         price += child_price
-#         print(f"{name} {child_price} dollars")
-#     elif age > 12:
-#         price += adult_price
-#         print(f"{name} {adult_price} dollars")
+price = 0
+adult_price = 16
+child_price = 10
+baby_price = 0
+for (name, age) in family.items():
+    if age < 3:
+        price += baby_price
+        print(f"{name} {baby_price} dollars")
+    elif 3 < age < 12:
+        price += child_price
+        print(f"{name} {child_price} dollars")
+    elif age > 12:
+        price += adult_price
+        print(f"{name} {adult_price} dollars")
 
-# print(f"Total price: {price}")
+print(f"Total price: {price}")
 
 
 # Bonus:
@@ -82,27 +83,27 @@
 # Allow the user to input family members’ names and ages, then calculate the total ticket cost.
 
 
-# price = 0
-# adult_price = 15
-# child_price = 10
-# baby_price = 0
-# user_family_info = {}
-# user_key = input("enter name: ")
-# user_value = int(input("enter your age: "))
-# user_family_info[user_key] = user_value
+price = 0
+adult_price = 15
+child_price = 10
+baby_price = 0
+user_family_info = {}
+user_key = input("enter name: ")
+user_value = int(input("enter your age: "))
+user_family_info[user_key] = user_value
 
-# for (name, age) in user_family_info.items():
-#     if age < 3:
-#         price += baby_price
-#         print(f"{name} {baby_price} dollars")
-#     elif 3 < age < 12:
-#         price += child_price
-#         print(f"{name} {child_price} dollars")
-#     elif age > 12:
-#         price += adult_price
-#         print(f"{name} {adult_price} dollars")
+for (name, age) in user_family_info.items():
+    if age < 3:
+        price += baby_price
+        print(f"{name} {baby_price} dollars")
+    elif 3 < age < 12:
+        price += child_price
+        print(f"{name} {child_price} dollars")
+    elif age > 12:
+        price += adult_price
+        print(f"{name} {adult_price} dollars")
 
-# print(f"Total price: {price}")
+print(f"Total price: {price}")
 
 
 
@@ -129,7 +130,7 @@
 # type_of_clothes: men, women, children, home
 # international_competitors: Gap, H&M, Benetton
 # number_stores: 7000
-# major_color: 
+# major_color:
 #     France: blue, 
 #     Spain: red, 
 #     US: pink, green
