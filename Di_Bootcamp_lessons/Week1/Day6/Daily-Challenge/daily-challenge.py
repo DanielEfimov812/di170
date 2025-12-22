@@ -40,7 +40,7 @@ user_word_dict = {}
 
 for index, char in enumerate(user_word):
     if char in user_word_dict:
-        user_word_dict[char].append(index)
+        user_word_dict[char].append(0 + 1)
     else:
         user_word_dict[char] = [index]
 print(user_word_dict)
