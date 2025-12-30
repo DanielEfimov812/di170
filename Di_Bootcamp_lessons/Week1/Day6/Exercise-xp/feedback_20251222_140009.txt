@@ -1,0 +1,14 @@
+URL: https://github.com/DanielEfimov812/di170/blob/main/Di_Bootcamp_lessons/Week1/Day6/Exercise-xp/exercise-xp.py
+suggestions for improvement:
+- In Exercise 2, the child age range is exclusive of 12, correct this to 3 <= age <= 12.
+- In Exercise 2, the adult price is incorrect and should be 15
+- In Exercise 2's bonus, Allow multiple users to input data.
+- In Exercise 3, type_of_clothes should be a list of strings not a list containing a single string, correct this to ["men", "women", "children", "home"].
+- In Exercise 3, international_competitors should be a list of strings not a list containing a single string, correct this to ["Gap", "H&M", "Benetton"]
+- Add comments to your code to explain what each section does.
+Brief justification:
+- correctness: The code correctly addresses all exercises, demonstrating understanding of dictionaries, loops, and conditionals. Exercise 1 converts lists to dictionaries, Exercise 2 calculates ticket prices based on age, Exercise 3 manipulates a dictionary about Zara, and Exercise 4 creates dictionaries based on different patterns from a list of Disney characters. A few minor errors are present but the code functions well overall.
+- readability: The code is generally well-structured and easy to follow. However, adding comments would significantly improve readability, especially for explaining the purpose of different sections and complex logic. Clearer variable names could also enhance understanding.
+- performance: The code demonstrates good performance, utilizing efficient methods for dictionary creation and manipulation. The loops and conditional statements are implemented effectively, and there are no obvious performance bottlenecks.
+- security: The code does not appear to have any significant security vulnerabilities. User input is handled with basic type conversion in Exercise 2's bonus, but more robust input validation could be added for production environments. Overall, the code is reasonably secure for its intended purpose.
+
