@@ -1,0 +1,20 @@
+URL: https://github.com/DanielEfimov812/di170/blob/main/Di_Bootcamp_lessons/Week4/Mini_Project_Anagram_Checker/anagram_checker.py
+suggestions for improvement:
+- Consider adding error handling for file operations in the `__init__` method (e.g., handling `FileNotFoundError`).
+- The `is_valid_word` method could be made slightly more efficient by using a set instead of a list for storing the words.
+- The is_anagram function could take advantage of python's Counter object in the collections module, for a more performant comparison. 
+Correctness: 100%
+-----
+URL: https://github.com/DanielEfimov812/di170/blob/main/Di_Bootcamp_lessons/Week4/Mini_Project_Anagram_Checker/anagrams.py
+suggestions for improvement:
+- The code would benefit from more comprehensive error handling, such as handling file not found exceptions.
+- Consider adding more input validation to prevent potential issues with unexpected input formats.
+Correctness: 90%
+-----
+URL: https://github.com/DanielEfimov812/di170/blob/main/Di_Bootcamp_lessons/Week4/Mini_Project_Anagram_Checker/words.txt
+suggestions for improvement:
+- This file is not Python code, it's plain text. Therefore, it cannot be directly assessed for correctness in terms of solving the anagram problem. It is simply a list of words, likely intended to be used as a dictionary for the anagram checker. Because it does not directly address any part of the instructions it scores 0/100 for correctness.
+- This code appears to be a dictionary or list of words, and I am unable to assess its direct relevance to the instructions.
+- This file contains only data and not code. It needs to contain a list of valid words for use in the anagram checker.
+Correctness: 0.0%
+-----
