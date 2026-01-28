@@ -91,13 +91,12 @@
 # Think about how to switch between players.
 # Think about how you will store the player’s symbol.
 
-
 # game_board = [
 #     [" "," "," "],
 #     [" "," "," "],
 #     [" "," "," "],
 # ]
-# print(len(game_board))
+
 
 # def display_board(game_board):
 #     for i in range(len(game_board)):
@@ -114,13 +113,5 @@
 #     column_input = int(input("type a column number: "))
 #     player = (raw_input, column_input)
 #     for i in player:
+#         if 
 # player_input(player)
-
-
-
-
-
-
-
-        
-

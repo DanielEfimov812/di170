@@ -395,7 +395,7 @@ class Family:
 
     def check_majority(self, first_name):
         for person in self.members:
-            if person.first_name == first_name:
+            if first_name == first_name:
                 if person.is_18():
                     print("You are over 18, your parents Jane and John accept that you will go out with your friends")
                 else:
@@ -404,7 +404,7 @@ class Family:
     def family_presentation(self):
         print(f"{self.last_name}")
         for person in self.members:
-            print(f"{person.first_name}, {person.age} years old")
+            print(f"{first_name}, {person.age} years old")
 
 
 my_family = Family("Smith")
