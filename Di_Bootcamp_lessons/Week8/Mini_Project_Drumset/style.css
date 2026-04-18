@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./image/pexels-introspectivedsgn-11115606.jpg);
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+    background-color: rgb(238, 229, 229);
+}
+
+span {
+    display: block;
+}
+

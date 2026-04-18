@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 60, 60);
+    color: aliceblue;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+button{
+    font-size: x-large;
+    height: 50px;
+    width: 50px;
+    border-radius: 30%;
+    color: aliceblue;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.game-field {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+}
+
+.field{
+    border: solid black;
+    width: 33.3%;
+    height: 33.3%;
+    align-content: center;
+}
+
+.field1{
+    border-width: 0 8px 8px 0;
+}
+
+.field2{
+    border-width: 0 8px 8px 8px;
+}
+
+.field3{
+    border-width: 0 0 8px 8px;
+}
+
+.field4{
+    border-width: 8px 8px 8px 0;
+}
+
+.field5{
+    border-width: 8px 8px 8px 8px;
+}
+
+.field6{
+    border-width: 8px 0 8px 8px;
+}
+
+.field7{
+    border-width: 8px 8px 0 0;
+}
+
+.field8{
+    border-width: 8px 8px 0 8px;
+}
+
+.field9{
+    border-width: 8px 0 0 8px;
+}
