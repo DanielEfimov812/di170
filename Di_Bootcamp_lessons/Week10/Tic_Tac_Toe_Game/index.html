@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe Game</title>
+    <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Tic Tac Toe Game</h1>
-    <div id="buttons">
-        <p>Choose which one to play with:</p>
-        <button id="buttonX" class="x-button">X</button>
-        <button id="buttonO" class="o-button">O</button>
+
+    <div id="setup">
+        <p>Choose your symbol:</p>
+        <button id="buttonX">X</button>
+        <button id="buttonO">O</button>
+
+        <p>Choose difficulty:</p>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn">Hard</button>
     </div>
-    <div id="main" class="game-field">
-    </div>
+
+    <p id="status">Choose your symbol and difficulty</p>
+
+    <div id="main" class="game-field"></div>
+
+    <button id="restart" class="hidden">Restart</button>
+
     <script src="script.js"></script>
 </body>
 </html>
